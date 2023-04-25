@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Events</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/style3.css">
+	<script type="text/javascript" src="js/jquery3.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+</head>
+<body>
+	<div class="col-md-12 banner" style="padding: 0px;">	
+		<nav>
+			<div id="menu">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mymenu">
+				<i class="fa fa-bars" style="color: white; font-size: 21px; margin-top: 18px;"></i>
+			</button>
+			
+			<ul class="nav navbar-nav navbar-left" style="width: 200px;">
+				<li class="logoimg">
+					<a href="index.html"><img src="images/logo.svg" height="55px" width="105px" style="margin-left: -35px;"></a>
+				</li>
+			</ul>
+			
+			<div class="collapse navbar-collapse text-center" id="mymenu">
+				<ul class="nav navbar-nav navbar-right btnsul">
+					<li><a href="aboutus.html">About</a></li>
+					<li><a href="portfolio.html">Portfolio</a></li>
+					<li><a href="services.html">Services</a></li>
+					<li><a href="events.html">Events</a></li>
+					<li><a href="press.html">Press</a></li>
+					<li><a href="">Contact</a></li>
+				</ul>
+			</div>
+			</div>
+		</nav>
+	</div>
+	<div class="clearfix"></div>
+	<div class="col-md-12 maindiv">
+		<span>Services</span>
+		<p>Upcoming Events</p>
+		<p style="color: darkgray; font-size: 18px; font-family: Calibri;">No events scheduled yet. Stay tuned!</p><br><br>
+		<p>Past Events</p>
+		<div class="col-md-9" style="margin-top: 35px; margin-left: -30px;">
+			<div class="col-md-2"><p>04/10/2020</p></div>
+			<div class="col-md-7 text-center" style="margin: 0; padding: 0; padding-right: 10px; padding-left: 45px; padding-top: 0;">
+				<p style="color: darkgray; font-size: 18px;font-family: Calibri;">Workshop di Light Paining per mese della fotografia, Circo Massimo,Roma, (RM) - 18:30</p>
+			</div>
+			<div class="col-md-2 text-center">
+				<span><a href="" style="color: #00c5df; font-size: 18px; margin-top5px">Read More</a></span>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="col-md-2"><p>10/10/2020</p></div>
+			<div class="col-md-7 text-center" style="margin: 0; padding: 0; padding-right: 10px; padding-left: 45px; padding-top: 0;">
+				<p style="color: darkgray; font-size: 18px;font-family: Calibri;">Workshop di Light Paining per mese della fotografia, Circo Massimo,Roma, (RM) - 18:30</p>
+			</div>
+			<div class="col-md-2 text-center">
+				<span><a href="" style="color: #00c5df; font-size: 18px; margin-top5px">Read More</a></span>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="col-md-2"><p>09/11/2020</p></div>
+			<div class="col-md-7 text-center" style="margin: 0; padding: 0; padding-right: 10px; padding-left: 45px; padding-top: 0;">
+				<p style="color: darkgray; font-size: 18px;font-family: Calibri;">Phloc Workshop, Circo Massimo,Roma, (RM) -</p>
+			</div>
+			<div class="col-md-2 text-center">
+				<span><a href="" style="color: #00c5df; font-size: 18px; margin-top5px">Read More</a></span>
+			</div>
+
+			<div class="clearfix"></div>
+
+			<div class="col-md-2"><p>31/07/2020</p></div>
+			<div class="col-md-7 text-center" style="margin: 0; padding: 0; padding-right: 10px; padding-left: 45px; padding-top: 0;">
+				<p style="color: darkgray; font-size: 18px;font-family: Calibri;">Phloc Workshop, Circo Massimo,Roma, (RM) -</p>
+			</div>
+			<div class="col-md-2 text-center">
+				<span><a href="" style="color: #00c5df; font-size: 18px; margin-top5px">Read More</a></span>
+			</div>
+			<div class="clearfix"></div>
+
+		</div>
+		<div class="col-md-3 text-center"><img src="images/events-background.jpg" width="370px" height="250px" style="padding: 0; margin-top: 25px;"></div>
+	</div>
+
+	<div class="col-md-12 footer text-center">
+		<img src="images/logo-contract.svg">
+		<p>All images are copyrighted by © Maria Saggese. All rights reserved.</p>
+		<!-- <ul class="nav navbar-nav btnsul text-center">
+			<li><a href="" style="color: black;">About</a></li>
+			<li><a href="" style="color: black;">Portfolio</a></li>
+			<li><a href="" style="color: black;">Services</a></li>
+			<li><a href="" style="color: black;">Events</a></li>
+			<li><a href="" style="color: black;">Press</a></li>
+			<li><a href="" style="color: black;">Contact</a></li>
+		</ul> -->
+		<i class="fa fa-instagram fa-fw"></i>
+		<i class="fa fa-facebook fa-fw"></i>
+		<i class="fa fa-twitter fa-fw"></i>
+	</div>
+
+
+	<script type="text/javascript">
+		window.onscroll = function(){
+
+				if(document.body.scrollTop>100 || document.documentElement.scrollTop>100)
+				{
+					document.getElementById("menu").classList.add("navbar-fixed-top");
+					document.getElementById("menu").classList.add("backblack");
+				}
+				else
+				{
+					document.getElementById("menu").classList.remove("navbar-fixed-top");
+					document.getElementById("menu").classList.remove("backblack");
+				}
+		};
+	</script>
+</body>
+</html>
